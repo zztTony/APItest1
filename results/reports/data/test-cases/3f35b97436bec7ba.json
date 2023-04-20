@@ -1,0 +1,114 @@
+{
+  "uid" : "3f35b97436bec7ba",
+  "name" : " -- @2.2 健康核验异常用例",
+  "fullName" : "健康核验: ",
+  "historyId" : "80b1d4b4b647300329f3b0ca87c8c153",
+  "time" : {
+    "start" : 1642990052351,
+    "stop" : 1642990052367,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号健康核验008，用例描述健康核验异常：未获取到身份信息",
+      "time" : {
+        "start" : 1642990052351,
+        "stop" : 1642990052351,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then api账号{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}, 健康核验请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}和预期结果{\"code\": 10002, \"msg\": \"未获取到身份信息\"}",
+      "time" : {
+        "start" : 1642990052351,
+        "stop" : 1642990052367,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "健康核验"
+  }, {
+    "name" : "feature",
+    "value" : "健康核验"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_kv",
+    "value" : "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "健康核验008"
+  }, {
+    "name" : "description",
+    "value" : "健康核验异常：未获取到身份信息"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 10002, \"msg\": \"未获取到身份信息\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dca3ee6e352edc4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750454611,
+        "stop" : 1642750454634,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "健康核验" ]
+  },
+  "source" : "3f35b97436bec7ba.json",
+  "parameterValues" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验008", "健康核验异常：未获取到身份信息", "{\"code\": 10002, \"msg\": \"未获取到身份信息\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+}

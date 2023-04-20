@@ -1,0 +1,197 @@
+{
+  "uid" : "e95818b1e71578e",
+  "name" : "数据的分离和查询 -- @1.2 设备注册",
+  "fullName" : "数据查询和数据分离: 数据的分离和查询",
+  "historyId" : "0df09d2f09e530c01fde48ebb96a49a2",
+  "time" : {
+    "start" : 1642750448647,
+    "stop" : 1642750448825,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号数据分离002和用例描述设备数据分离: 设备(门禁盒子)注册和查询",
+      "time" : {
+        "start" : 1642750448647,
+        "stop" : 1642750448647,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When 数据制造: 接口{\"接口名\": \"设备注册\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-register\"}, api账号{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}, 请求参数{\"deviceId\": \"FF185F0F\", \"productId\": \"61cab99ed93bdf084033a1a3\"}, 期望值{\"code\": 200, \"msg\": \"设备注册成功\"}",
+      "time" : {
+        "start" : 1642750448647,
+        "stop" : 1642750448678,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 数据查询: 接口{\"接口名\": \"设备查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-list\"}, 本api账号, 请求参数{\"deviceId\": \"FF185F0F\", \"deviceType\": \"ENTRANCE_BOX\", \"uid\": \"\", \"current\": 1, \"size\": None, \"productId\": \"61cab99ed93bdf084033a1a3\"}, 预期{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}",
+      "time" : {
+        "start" : 1642750448678,
+        "stop" : 1642750448694,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 同空间异api账号{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}查询: 参数同上, 预期{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}",
+      "time" : {
+        "start" : 1642750448694,
+        "stop" : 1642750448715,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 同租户异空间的api账号{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}查询: 参数同上, 预期{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}",
+      "time" : {
+        "start" : 1642750448715,
+        "stop" : 1642750448731,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 异租户的api账号{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}查询: 参数同上, 预期{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}",
+      "time" : {
+        "start" : 1642750448731,
+        "stop" : 1642750448747,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "数据分离和查询"
+  }, {
+    "name" : "tag",
+    "value" : "设备注册和数据分离"
+  }, {
+    "name" : "feature",
+    "value" : "数据查询和数据分离"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api1",
+    "value" : "{\"接口名\": \"设备注册\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-register\"}"
+  }, {
+    "name" : "api2",
+    "value" : "{\"接口名\": \"设备查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-list\"}"
+  }, {
+    "name" : "api_cA",
+    "value" : "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}"
+  }, {
+    "name" : "api_cB",
+    "value" : "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}"
+  }, {
+    "name" : "api_cC",
+    "value" : "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}"
+  }, {
+    "name" : "api_cD",
+    "value" : "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "数据分离002"
+  }, {
+    "name" : "description",
+    "value" : "设备数据分离: 设备(门禁盒子)注册和查询"
+  }, {
+    "name" : "expected1",
+    "value" : "{\"code\": 200, \"msg\": \"设备注册成功\"}"
+  }, {
+    "name" : "expected2",
+    "value" : "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}"
+  }, {
+    "name" : "expected3",
+    "value" : "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}"
+  }, {
+    "name" : "expected4",
+    "value" : "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}"
+  }, {
+    "name" : "expected5",
+    "value" : "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}"
+  }, {
+    "name" : "parameter1",
+    "value" : "{\"deviceId\": \"FF185F0F\", \"productId\": \"61cab99ed93bdf084033a1a3\"}"
+  }, {
+    "name" : "parameter2",
+    "value" : "{\"deviceId\": \"FF185F0F\", \"deviceType\": \"ENTRANCE_BOX\", \"uid\": \"\", \"current\": 1, \"size\": None, \"productId\": \"61cab99ed93bdf084033a1a3\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "数据分离和查询", "设备注册和数据分离" ]
+  },
+  "source" : "e95818b1e71578e.json",
+  "parameterValues" : [ "{\"接口名\": \"设备注册\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-register\"}", "{\"接口名\": \"设备查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-list\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "数据分离002", "设备数据分离: 设备(门禁盒子)注册和查询", "{\"code\": 200, \"msg\": \"设备注册成功\"}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"deviceId\": \"FF185F0F\", \"productId\": \"61cab99ed93bdf084033a1a3\"}", "{\"deviceId\": \"FF185F0F\", \"deviceType\": \"ENTRANCE_BOX\", \"uid\": \"\", \"current\": 1, \"size\": None, \"productId\": \"61cab99ed93bdf084033a1a3\"}" ]
+}

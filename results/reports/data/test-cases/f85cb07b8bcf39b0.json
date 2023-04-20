@@ -1,0 +1,111 @@
+{
+  "uid" : "f85cb07b8bcf39b0",
+  "name" : " -- @1.6 用例",
+  "fullName" : "设备上报运行日志: ",
+  "historyId" : "1f8f7e5ff124605fde09f6ce80e3a51f",
+  "time" : {
+    "start" : 1642990053972,
+    "stop" : 1642990053988,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 测试用例编号设备日志006和用例描述用错误时间格式上报日志",
+      "time" : {
+        "start" : 1642990053974,
+        "stop" : 1642990053974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 请求参数{\"deviceId\": \"0120100016c0aa02f00\", \"time\": \"%Y-%m%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjjkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j\"}}和预期结果{\"code\": 400, \"msg\": \"操作时间格式不正确\"}",
+      "time" : {
+        "start" : 1642990053974,
+        "stop" : 1642990053988,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "设备日志"
+  }, {
+    "name" : "feature",
+    "value" : "设备上报运行日志"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "设备日志006"
+  }, {
+    "name" : "description",
+    "value" : "用错误时间格式上报日志"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 400, \"msg\": \"操作时间格式不正确\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa02f00\", \"time\": \"%Y-%m%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjjkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j\"}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b751f24574dec02d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750456334,
+        "stop" : 1642750456350,
+        "duration" : 16
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "设备日志" ]
+  },
+  "source" : "f85cb07b8bcf39b0.json",
+  "parameterValues" : [ "设备日志006", "用错误时间格式上报日志", "{\"code\": 400, \"msg\": \"操作时间格式不正确\"}", "{\"deviceId\": \"0120100016c0aa02f00\", \"time\": \"%Y-%m%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjjkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j\"}}" ]
+}

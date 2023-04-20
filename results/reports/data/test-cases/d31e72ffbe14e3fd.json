@@ -1,0 +1,132 @@
+{
+  "uid" : "d31e72ffbe14e3fd",
+  "name" : " -- @1.4 开门记录的用例",
+  "fullName" : "开门记录：上报和查询: ",
+  "historyId" : "07a41656ce5f9ca331d5835f82bb8f80",
+  "time" : {
+    "start" : 1642990057338,
+    "stop" : 1642990058381,
+    "duration" : 1043
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号开门记录004; 用例描述开门记录上报查询: 扫码核验(高风险), 测温",
+      "time" : {
+        "start" : 1642990057338,
+        "stop" : 1642990057338,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When 上报开门记录: 请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.00\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录上报成功\"}",
+      "time" : {
+        "start" : 1642990057338,
+        "stop" : 1642990057354,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 查询开门记录: 请求参数{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"30\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}",
+      "time" : {
+        "start" : 1642990057354,
+        "stop" : 1642990058381,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "开门记录"
+  }, {
+    "name" : "feature",
+    "value" : "开门记录：上报和查询"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "开门记录004"
+  }, {
+    "name" : "description",
+    "value" : "开门记录上报查询: 扫码核验(高风险), 测温"
+  }, {
+    "name" : "expected1",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录上报成功\"}"
+  }, {
+    "name" : "expected2",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}"
+  }, {
+    "name" : "parameter1",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.00\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}"
+  }, {
+    "name" : "parameter2",
+    "value" : "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"30\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a99256d400e0b9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750459720,
+        "stop" : 1642750460758,
+        "duration" : 1038
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "开门记录" ]
+  },
+  "source" : "d31e72ffbe14e3fd.json",
+  "parameterValues" : [ "开门记录004", "开门记录上报查询: 扫码核验(高风险), 测温", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.00\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"30\"}" ]
+}

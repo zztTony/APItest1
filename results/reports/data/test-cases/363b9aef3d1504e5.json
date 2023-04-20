@@ -1,0 +1,132 @@
+{
+  "uid" : "363b9aef3d1504e5",
+  "name" : " -- @1.5 设备心跳的用例",
+  "fullName" : "设备心跳: ",
+  "historyId" : "8e773da1b022f9cd564eaa66fab7cf02",
+  "time" : {
+    "start" : 1642990053734,
+    "stop" : 1642990053762,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号设备心跳005和描述一体机(未注册)上报心跳",
+      "time" : {
+        "start" : 1642990053734,
+        "stop" : 1642990053734,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When 接口信息: 接口名和请求方法{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}; api账号{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}",
+      "time" : {
+        "start" : 1642990053734,
+        "stop" : 1642990053734,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 上报设备心跳: 请求参数{\"deviceId\": \"0120100016c0aa99b00\"}和预期值{\"code\": 400, \"msg\": \"设备ID不存在\"}",
+      "time" : {
+        "start" : 1642990053734,
+        "stop" : 1642990053762,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "设备心跳"
+  }, {
+    "name" : "feature",
+    "value" : "设备心跳"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api",
+    "value" : "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}"
+  }, {
+    "name" : "api_kv",
+    "value" : "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "设备心跳005"
+  }, {
+    "name" : "description",
+    "value" : "一体机(未注册)上报心跳"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 400, \"msg\": \"设备ID不存在\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa99b00\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "98cd9b3a936fefa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750456051,
+        "stop" : 1642750456083,
+        "duration" : 32
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "设备心跳" ]
+  },
+  "source" : "363b9aef3d1504e5.json",
+  "parameterValues" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳005", "一体机(未注册)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa99b00\"}" ]
+}

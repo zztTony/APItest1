@@ -1,0 +1,101 @@
+{
+  "uid" : "bd1a560a682c6cd5",
+  "name" : " -- @1.2 用例",
+  "fullName" : "设备上报运行日志: ",
+  "historyId" : "a20a502c0bfab478ea448af59099ac93",
+  "time" : {
+    "start" : 1642750456256,
+    "stop" : 1642750456271,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 测试用例编号设备日志002和用例描述门禁盒子上报日志",
+      "time" : {
+        "start" : 1642750456257,
+        "stop" : 1642750456257,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 请求参数{\"deviceId\": \"FE990A0F\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}和预期结果{\"code\": 200, \"msg\": \"设备运行日志上报成功\"}",
+      "time" : {
+        "start" : 1642750456257,
+        "stop" : 1642750456271,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "设备日志"
+  }, {
+    "name" : "feature",
+    "value" : "设备上报运行日志"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "设备日志002"
+  }, {
+    "name" : "description",
+    "value" : "门禁盒子上报日志"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 200, \"msg\": \"设备运行日志上报成功\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"FE990A0F\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "设备日志" ]
+  },
+  "source" : "bd1a560a682c6cd5.json",
+  "parameterValues" : [ "设备日志002", "门禁盒子上报日志", "{\"code\": 200, \"msg\": \"设备运行日志上报成功\"}", "{\"deviceId\": \"FE990A0F\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}" ]
+}

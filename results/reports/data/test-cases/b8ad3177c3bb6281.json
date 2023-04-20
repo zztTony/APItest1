@@ -1,0 +1,104 @@
+{
+  "uid" : "b8ad3177c3bb6281",
+  "name" : " -- @1.4 健康核验正常用例",
+  "fullName" : "健康核验: ",
+  "historyId" : "60da455ec5776d7822248ec1fb4b2471",
+  "time" : {
+    "start" : 1642750451771,
+    "stop" : 1642750452754,
+    "duration" : 983
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号健康核验004，用例描述扫码(绿)核验",
+      "time" : {
+        "start" : 1642750451771,
+        "stop" : 1642750451771,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then api账号{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}, 健康核验请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"513401199604240630\", \"name\": \"李俊璇\"}, \"cardExtension\": \"\"}和预期结果{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"00\"}",
+      "time" : {
+        "start" : 1642750451771,
+        "stop" : 1642750452754,
+        "duration" : 983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "健康核验"
+  }, {
+    "name" : "feature",
+    "value" : "健康核验"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_kv",
+    "value" : "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "健康核验004"
+  }, {
+    "name" : "description",
+    "value" : "扫码(绿)核验"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"00\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"513401199604240630\", \"name\": \"李俊璇\"}, \"cardExtension\": \"\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "健康核验" ]
+  },
+  "source" : "b8ad3177c3bb6281.json",
+  "parameterValues" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验004", "扫码(绿)核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"00\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"513401199604240630\", \"name\": \"李俊璇\"}, \"cardExtension\": \"\"}" ]
+}

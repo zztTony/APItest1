@@ -1,0 +1,114 @@
+{
+  "uid" : "8eb2b68248e2033a",
+  "name" : " -- @3.2 健康核验数据分离",
+  "fullName" : "健康核验: ",
+  "historyId" : "61f5ebd41956cbbfb4fcfc5c68da239c",
+  "time" : {
+    "start" : 1642990053623,
+    "stop" : 1642990053639,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号健康核验014，用例描述用同租户异空间api账号进行健康核验",
+      "time" : {
+        "start" : 1642990053623,
+        "stop" : 1642990053623,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then api账号{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}, 健康核验请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}和预期结果{\"code\": 400, \"msg\": \"设备ID不存在\"}",
+      "time" : {
+        "start" : 1642990053623,
+        "stop" : 1642990053639,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "健康核验"
+  }, {
+    "name" : "feature",
+    "value" : "健康核验"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_kv",
+    "value" : "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "健康核验014"
+  }, {
+    "name" : "description",
+    "value" : "用同租户异空间api账号进行健康核验"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 400, \"msg\": \"设备ID不存在\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "16c812c2c70bb3e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750455863,
+        "stop" : 1642750455910,
+        "duration" : 47
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "健康核验" ]
+  },
+  "source" : "8eb2b68248e2033a.json",
+  "parameterValues" : [ "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "健康核验014", "用同租户异空间api账号进行健康核验", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+}

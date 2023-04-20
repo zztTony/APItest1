@@ -1,0 +1,571 @@
+[ {
+  "uid" : "19feabcb59c4d041",
+  "name" : " -- @1.2 用例",
+  "time" : {
+    "start" : 1642990053904,
+    "stop" : 1642990053919,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4077db5a2e8f92",
+  "name" : " -- @1.6 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053762,
+    "stop" : 1642990053778,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f85cb07b8bcf39b0",
+  "name" : " -- @1.6 用例",
+  "time" : {
+    "start" : 1642990053972,
+    "stop" : 1642990053988,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5475de24164d5c55",
+  "name" : " -- @1.4 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053730,
+    "stop" : 1642990053734,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29c95d22d6955508",
+  "name" : " -- @1.4 健康核验正常用例",
+  "time" : {
+    "start" : 1642990048276,
+    "stop" : 1642990050917,
+    "duration" : 2641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ca792ed9567aa8",
+  "name" : " -- @1.10 开门记录的用例",
+  "time" : {
+    "start" : 1642990063646,
+    "stop" : 1642990064689,
+    "duration" : 1043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "310810e67351254d",
+  "name" : "all instructions -- @1.6 新用例",
+  "time" : {
+    "start" : 1642990066262,
+    "stop" : 1642990066441,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "913cab290e152322",
+  "name" : " -- @1.2 开门记录的用例",
+  "time" : {
+    "start" : 1642990055137,
+    "stop" : 1642990056250,
+    "duration" : 1113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "975f2a43adcd8c7c",
+  "name" : " -- @2.1 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052335,
+    "stop" : 1642990052351,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1d0905b0f151f34",
+  "name" : " -- @1.4 用例",
+  "time" : {
+    "start" : 1642990053935,
+    "stop" : 1642990053951,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd0c75832462c5df",
+  "name" : "数据的分离和查询 -- @1.2 设备注册",
+  "time" : {
+    "start" : 1642990044935,
+    "stop" : 1642990045157,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c9ae9b9bd7c1431",
+  "name" : " -- @1.1 开门记录的用例",
+  "time" : {
+    "start" : 1642990053995,
+    "stop" : 1642990055137,
+    "duration" : 1142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dfb93f6fef2fd0c",
+  "name" : " -- @1.3 用例",
+  "time" : {
+    "start" : 1642990053919,
+    "stop" : 1642990053935,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9d63d71bd560cc",
+  "name" : "all instructions -- @1.2 新用例",
+  "time" : {
+    "start" : 1642990065835,
+    "stop" : 1642990065904,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eca50b5b050dff89",
+  "name" : " -- @2.3 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052367,
+    "stop" : 1642990052510,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbe242e4d6dc6c15",
+  "name" : "数据的分离和查询 -- @1.1 设备注册",
+  "time" : {
+    "start" : 1642990044711,
+    "stop" : 1642990044935,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7195d782e8f9857",
+  "name" : "all instructions -- @1.5 新用例",
+  "time" : {
+    "start" : 1642990066071,
+    "stop" : 1642990066262,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a37323ec590e2bf9",
+  "name" : " -- @1.5 开门记录的用例",
+  "time" : {
+    "start" : 1642990058381,
+    "stop" : 1642990059441,
+    "duration" : 1060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f733ca26f91af0",
+  "name" : " -- @1.6 健康核验正常用例",
+  "time" : {
+    "start" : 1642990051548,
+    "stop" : 1642990052335,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5404c31ff81b181",
+  "name" : " -- @1.1 用例",
+  "time" : {
+    "start" : 1642990053872,
+    "stop" : 1642990053904,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aec00fd6676e2cb",
+  "name" : " -- @1.7 开门记录的用例",
+  "time" : {
+    "start" : 1642990060504,
+    "stop" : 1642990061543,
+    "duration" : 1039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "414a58442d2c9bc4",
+  "name" : " -- @1.1 健康核验正常用例",
+  "time" : {
+    "start" : 1642990046502,
+    "stop" : 1642990047171,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca4b17cd088f04c6",
+  "name" : " -- @1.2 健康核验正常用例",
+  "time" : {
+    "start" : 1642990047171,
+    "stop" : 1642990047687,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8eb2b68248e2033a",
+  "name" : " -- @3.2 健康核验数据分离",
+  "time" : {
+    "start" : 1642990053623,
+    "stop" : 1642990053639,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab568eb2219b1ea4",
+  "name" : " -- @1.5 健康核验正常用例",
+  "time" : {
+    "start" : 1642990050917,
+    "stop" : 1642990051548,
+    "duration" : 631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8675245862f8a43",
+  "name" : " -- @1.1 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053655,
+    "stop" : 1642990053686,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db12f80afa182e3c",
+  "name" : " -- @1.6 开门记录的用例",
+  "time" : {
+    "start" : 1642990059441,
+    "stop" : 1642990060504,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b419f96d24ae281d",
+  "name" : " -- @1.8 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053794,
+    "stop" : 1642990053809,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fb2b2a6dab28aa8",
+  "name" : " -- @1.3 健康核验正常用例",
+  "time" : {
+    "start" : 1642990047687,
+    "stop" : 1642990048276,
+    "duration" : 589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f35b97436bec7ba",
+  "name" : " -- @2.2 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052351,
+    "stop" : 1642990052367,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d2bad905ec3a8a",
+  "name" : " -- @3.1 健康核验数据分离",
+  "time" : {
+    "start" : 1642990053250,
+    "stop" : 1642990053607,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cb2541d06c6781e",
+  "name" : " -- @1.8 开门记录的用例",
+  "time" : {
+    "start" : 1642990061543,
+    "stop" : 1642990062581,
+    "duration" : 1038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "177a1573aaab92f0",
+  "name" : "all instructions -- @1.9 新用例",
+  "time" : {
+    "start" : 1642990066588,
+    "stop" : 1642990066675,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fc3ef38a68c3e57",
+  "name" : " -- @2.5 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052672,
+    "stop" : 1642990052891,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9989b5b1827a17c",
+  "name" : " -- @1.9 开门记录的用例",
+  "time" : {
+    "start" : 1642990062581,
+    "stop" : 1642990063646,
+    "duration" : 1065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dd4be0ce250ce3f",
+  "name" : " -- @1.3 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053702,
+    "stop" : 1642990053730,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc466eb7c36b12d8",
+  "name" : "all instructions -- @1.1 新用例",
+  "time" : {
+    "start" : 1642990065750,
+    "stop" : 1642990065834,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c75f5b4833696de",
+  "name" : " -- @2.6 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052912,
+    "stop" : 1642990053249,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64a1b3f7c0d97143",
+  "name" : "all instructions -- @1.7 新用例",
+  "time" : {
+    "start" : 1642990066443,
+    "stop" : 1642990066505,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a96dfef608b20157",
+  "name" : " -- @1.3 开门记录的用例",
+  "time" : {
+    "start" : 1642990056251,
+    "stop" : 1642990057338,
+    "duration" : 1087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d47a24a8a5ca199",
+  "name" : " -- @3.3 健康核验数据分离",
+  "time" : {
+    "start" : 1642990053639,
+    "stop" : 1642990053655,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a7616b653d1fdb",
+  "name" : "数据的分离和查询 -- @2.2 数据的制造和查询",
+  "time" : {
+    "start" : 1642990045264,
+    "stop" : 1642990046486,
+    "duration" : 1222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7141c3497f544bbf",
+  "name" : "数据的分离和查询 -- @2.1 数据的制造和查询",
+  "time" : {
+    "start" : 1642990045157,
+    "stop" : 1642990045264,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c18d807b8707c9",
+  "name" : " -- @1.11 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053849,
+    "stop" : 1642990053863,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bea55e2cf3f4e5a",
+  "name" : "all instructions -- @1.3 新用例",
+  "time" : {
+    "start" : 1642990065904,
+    "stop" : 1642990065982,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "192259c2c24d59c6",
+  "name" : " -- @2.4 健康核验异常用例",
+  "time" : {
+    "start" : 1642990052510,
+    "stop" : 1642990052672,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0dd57077eb19db7",
+  "name" : " -- @1.11 开门记录的用例",
+  "time" : {
+    "start" : 1642990064689,
+    "stop" : 1642990065743,
+    "duration" : 1054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af6302f24e46285a",
+  "name" : "all instructions -- @1.8 新用例",
+  "time" : {
+    "start" : 1642990066505,
+    "stop" : 1642990066588,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba8a5306d979eb53",
+  "name" : " -- @1.10 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053834,
+    "stop" : 1642990053848,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "683043a3fd29296c",
+  "name" : "all instructions -- @1.4 新用例",
+  "time" : {
+    "start" : 1642990065982,
+    "stop" : 1642990066071,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3294cc274d0cec18",
+  "name" : " -- @1.9 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053809,
+    "stop" : 1642990053833,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70f18f257b5dfbb0",
+  "name" : " -- @1.5 用例",
+  "time" : {
+    "start" : 1642990053951,
+    "stop" : 1642990053971,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "363b9aef3d1504e5",
+  "name" : " -- @1.5 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053734,
+    "stop" : 1642990053762,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e21e88fba540137",
+  "name" : " -- @1.7 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053778,
+    "stop" : 1642990053794,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7336e6c42213426",
+  "name" : " -- @1.12 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053864,
+    "stop" : 1642990053872,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7deaaf06b7cec5b5",
+  "name" : " -- @1.2 设备心跳的用例",
+  "time" : {
+    "start" : 1642990053686,
+    "stop" : 1642990053702,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d31e72ffbe14e3fd",
+  "name" : " -- @1.4 开门记录的用例",
+  "time" : {
+    "start" : 1642990057338,
+    "stop" : 1642990058381,
+    "duration" : 1043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

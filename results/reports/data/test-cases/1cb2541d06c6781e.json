@@ -1,0 +1,132 @@
+{
+  "uid" : "1cb2541d06c6781e",
+  "name" : " -- @1.8 开门记录的用例",
+  "fullName" : "开门记录：上报和查询: ",
+  "historyId" : "5641a797dfd2471dd3d3803dcfa1a4b7",
+  "time" : {
+    "start" : 1642990061543,
+    "stop" : 1642990062581,
+    "duration" : 1038
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号开门记录008; 用例描述开门记录上报查询: 刷卡, 测温(常温)",
+      "time" : {
+        "start" : 1642990061543,
+        "stop" : 1642990061543,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When 上报开门记录: 请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"IC_CARD\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EBE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录上报成功\"}",
+      "time" : {
+        "start" : 1642990061543,
+        "stop" : 1642990061554,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 查询开门记录: 请求参数{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}",
+      "time" : {
+        "start" : 1642990061554,
+        "stop" : 1642990062581,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "开门记录"
+  }, {
+    "name" : "feature",
+    "value" : "开门记录：上报和查询"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "开门记录008"
+  }, {
+    "name" : "description",
+    "value" : "开门记录上报查询: 刷卡, 测温(常温)"
+  }, {
+    "name" : "expected1",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录上报成功\"}"
+  }, {
+    "name" : "expected2",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}"
+  }, {
+    "name" : "parameter1",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"IC_CARD\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EBE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}"
+  }, {
+    "name" : "parameter2",
+    "value" : "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "849cf96132916e1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642750463928,
+        "stop" : 1642750464973,
+        "duration" : 1045
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "开门记录" ]
+  },
+  "source" : "1cb2541d06c6781e.json",
+  "parameterValues" : [ "开门记录008", "开门记录上报查询: 刷卡, 测温(常温)", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"IC_CARD\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EBE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+}

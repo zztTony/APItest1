@@ -1,0 +1,998 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "数据查询和数据分离",
+    "children" : [ {
+      "name" : "数据的分离和查询 -- @1.1 设备注册",
+      "uid" : "dbe242e4d6dc6c15",
+      "parentUid" : "dc087a9987f5a0632fee5f681333b48f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990044711,
+        "stop" : 1642990044935,
+        "duration" : 224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备注册\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-register\"}", "{\"接口名\": \"设备查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-list\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "数据分离001", "设备数据分离: 设备(一体机)注册和查询", "{\"code\": 200, \"msg\": \"设备注册成功\"}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"deviceId\": \"0120100016c0aa04a00\", \"productId\": \"61b1beb3d256694905d12221\"}", "{\"deviceId\": \"0120100016c0aa04a00\", \"deviceType\": \"AIO_MACHINE\", \"uid\": \"\", \"current\": 1, \"size\": None, \"productId\": \"61b1beb3d256694905d12221\"}" ]
+    }, {
+      "name" : "数据的分离和查询 -- @1.2 设备注册",
+      "uid" : "dd0c75832462c5df",
+      "parentUid" : "dc087a9987f5a0632fee5f681333b48f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990044935,
+        "stop" : 1642990045157,
+        "duration" : 222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备注册\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-register\"}", "{\"接口名\": \"设备查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/device-list\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "数据分离002", "设备数据分离: 设备(门禁盒子)注册和查询", "{\"code\": 200, \"msg\": \"设备注册成功\"}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"code\": 200, \"msg\": \"设备列表查询成功\", \"totalCount\": 0}", "{\"deviceId\": \"FF185F0F\", \"productId\": \"61cab99ed93bdf084033a1a3\"}", "{\"deviceId\": \"FF185F0F\", \"deviceType\": \"ENTRANCE_BOX\", \"uid\": \"\", \"current\": 1, \"size\": None, \"productId\": \"61cab99ed93bdf084033a1a3\"}" ]
+    }, {
+      "name" : "数据的分离和查询 -- @2.1 数据的制造和查询",
+      "uid" : "7141c3497f544bbf",
+      "parentUid" : "dc087a9987f5a0632fee5f681333b48f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990045157,
+        "stop" : 1642990045264,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\", \"url\": r\"/aiot-device/v1/mac/api/kas/dispatch-tasks\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\", \"url\": r\"/aiot-device/v1/mac/api/kas/find-tasks-status\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "数据分离003", "指令数据分离: 指令下发和查询", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"totalCount\": 0}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"totalCount\": 0}", "[{\"tag\": \"展示时长设置2秒\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"展示时长设置的指令\", \"instruction\": \"2002\", \"instruParams\": {\"time\": 2}, \"sendType\": \"http\"}]", "{\"tag\": \"展示时长设置2秒\", \"deviceId\": \"0120100016c0aa02a00\", \"status\": \"CREATED\", \"current\": 1, \"size\": None, \"taskId\": \"\"}" ]
+    }, {
+      "name" : "数据的分离和查询 -- @2.2 数据的制造和查询",
+      "uid" : "97a7616b653d1fdb",
+      "parentUid" : "dc087a9987f5a0632fee5f681333b48f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990045264,
+        "stop" : 1642990046486,
+        "duration" : 1222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"开门记录上报\", \"请求方法\": \"POST\", \"url\": r\"/aiot-paas/v1/door/api/kas/access-records\"}", "{\"接口名\": \"查询开门记录\", \"请求方法\": \"GET\", \"url\": r\"/aiot-paas/v1/door/api/kas/sync-access-records\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "数据分离004", "开门记录数据分离: 开门记录上报和查询", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 0}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 0}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"ID_NUMBER\", \"FACE\", \"TEMPE\", \"IC_CARD\"], \"time\": \"2021-11-11 15:00:00\", \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"37.5\", \"base64Img\": r\"C:\\Users\\ASUS\\Desktop\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088888\", \"personName\": \"这种人\", \"uid\": \"FF185E5E\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险，不能开门\", \"cardExtension\": \"5E\"}", "{\"startTime\": \"\", \"endTime\": \"\", \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"\"}" ]
+    } ],
+    "uid" : "dc087a9987f5a0632fee5f681333b48f"
+  }, {
+    "name" : "健康核验",
+    "children" : [ {
+      "name" : " -- @1.1 健康核验正常用例",
+      "uid" : "414a58442d2c9bc4",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990046502,
+        "stop" : 1642990047171,
+        "duration" : 669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验001", "用身份信息(低风险)进行健康核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"00\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @1.2 健康核验正常用例",
+      "uid" : "ca4b17cd088f04c6",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990047171,
+        "stop" : 1642990047687,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验002", "用身份信息(中风险)进行健康核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"01\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"51160219920219629X\", \"name\": \"侯义勇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @1.3 健康核验正常用例",
+      "uid" : "9fb2b2a6dab28aa8",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990047687,
+        "stop" : 1642990048276,
+        "duration" : 589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验003", "用身份信息(高风险)进行健康核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"10\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"511028199603088514\", \"name\": \"张正桃\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @1.4 健康核验正常用例",
+      "uid" : "29c95d22d6955508",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990048276,
+        "stop" : 1642990050917,
+        "duration" : 2641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验004", "扫码(绿)核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"00\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"513401199604240630\", \"name\": \"李俊璇\"}, \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @1.5 健康核验正常用例",
+      "uid" : "ab568eb2219b1ea4",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990050917,
+        "stop" : 1642990051548,
+        "duration" : 631
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验005", "扫码(黄)核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"01\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"51160219920219629X\", \"name\": \"侯义勇\"}, \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @1.6 健康核验正常用例",
+      "uid" : "b8f733ca26f91af0",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990051548,
+        "stop" : 1642990052335,
+        "duration" : 787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验006", "扫码(红)核验", "{\"code\": 200, \"msg\": \"健康核验成功\", \"riskAssessmentGrade\": \"10\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": {\"certificate_type\": \"10\", \"certificate_id\": \"511028199603088514\", \"name\": \"张正桃\"}, \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.1 健康核验异常用例",
+      "uid" : "975f2a43adcd8c7c",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052335,
+        "stop" : 1642990052351,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验007", "用未激活设备进行健康核验", "{\"code\": 10001, \"msg\": \"设备未激活\"}", "{\"deviceId\": \"0120100016c0aa04a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.2 健康核验异常用例",
+      "uid" : "3f35b97436bec7ba",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052351,
+        "stop" : 1642990052367,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验008", "健康核验异常：未获取到身份信息", "{\"code\": 10002, \"msg\": \"未获取到身份信息\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.3 健康核验异常用例",
+      "uid" : "eca50b5b050dff89",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052367,
+        "stop" : 1642990052510,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验009", "健康核验异常：身份信息有误", "{\"code\": 10003, \"msg\": \"身份信息有误\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"51340119960424063\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.4 健康核验异常用例",
+      "uid" : "192259c2c24d59c6",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052510,
+        "stop" : 1642990052672,
+        "duration" : 162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验010", "健康核验异常：未健康申报", "{\"code\": 10004, \"msg\": \"请按要求进行健康申报\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"452201199604170013\", \"name\": \"邱垚\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.5 健康核验异常用例",
+      "uid" : "5fc3ef38a68c3e57",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052672,
+        "stop" : 1642990052891,
+        "duration" : 219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验011", "健康核验异常：健康码已过期", "{\"code\": 10006, \"msg\": \"健康码已过期\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": \"SCQRJKMC1000000101010000A001/ZcX2BLJRC9QQSFV/jXIEvQsDLofRWt+EWOU2pkZE9KsC1TCBPdMJ3Qv9E8ltEra16414610946E41367AD549F36C300F46D33597552FFD97F715FE3E558D0182B7422FA49D70\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @2.6 健康核验异常用例",
+      "uid" : "3c75f5b4833696de",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990052912,
+        "stop" : 1642990053249,
+        "duration" : 337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验012", "健康核验异常：二维码错误", "{\"code\": 10008, \"msg\": \"二维码错误\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"\", \"certificateId\": \"\", \"name\": \"\", \"codeContent\": \"SCQRJKMC1000000101010000A001/ZcX2BLJRC9QQSFV/jXIEvQsDLofRWt+EWOU2pkZE9KsC1TCBPdMJ3Qv9E8ltEra16414610946E41367AD549F36C300F46D33597552FFD97F715FE3E558D0182B7422FA49D7\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @3.1 健康核验数据分离",
+      "uid" : "a1d2bad905ec3a8a",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053250,
+        "stop" : 1642990053607,
+        "duration" : 357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "健康核验013", "用同空间异api账号进行健康核验", "{\"code\": 200, \"msg\": \"健康核验成功\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @3.2 健康核验数据分离",
+      "uid" : "8eb2b68248e2033a",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053623,
+        "stop" : 1642990053639,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "健康核验014", "用同租户异空间api账号进行健康核验", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    }, {
+      "name" : " -- @3.3 健康核验数据分离",
+      "uid" : "9d47a24a8a5ca199",
+      "parentUid" : "e33c776fc51794b9cedc7a0b1ee1eb99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053639,
+        "stop" : 1642990053655,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "健康核验015", "用异租户api账号进行健康核验", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"513401199604240630\", \"name\": \"李俊璇\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+    } ],
+    "uid" : "e33c776fc51794b9cedc7a0b1ee1eb99"
+  }, {
+    "name" : "设备心跳",
+    "children" : [ {
+      "name" : " -- @1.1 设备心跳的用例",
+      "uid" : "a8675245862f8a43",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053655,
+        "stop" : 1642990053686,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳001", "一体机(已注册且激活)上报心跳", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"deviceId\": \"0120100016c0aa02a00\"}" ]
+    }, {
+      "name" : " -- @1.2 设备心跳的用例",
+      "uid" : "7deaaf06b7cec5b5",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053686,
+        "stop" : 1642990053702,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳002", "门禁盒子(已注册且激活)上报心跳", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"deviceId\": \"FE990A0F\"}" ]
+    }, {
+      "name" : " -- @1.3 设备心跳的用例",
+      "uid" : "5dd4be0ce250ce3f",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053702,
+        "stop" : 1642990053730,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳003", "一体机(已注册未激活)上报心跳", "{\"code\": 400, \"msg\": \"设备未激活\"}", "{\"deviceId\": \"0120100016c0aa03a00\"}" ]
+    }, {
+      "name" : " -- @1.4 设备心跳的用例",
+      "uid" : "5475de24164d5c55",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053730,
+        "stop" : 1642990053734,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳004", "门禁盒子(已注册未激活)上报心跳", "{\"code\": 400, \"msg\": \"设备未激活\"}", "{\"deviceId\": \"FE990A9F\"}" ]
+    }, {
+      "name" : " -- @1.5 设备心跳的用例",
+      "uid" : "363b9aef3d1504e5",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053734,
+        "stop" : 1642990053762,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳005", "一体机(未注册)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa99b00\"}" ]
+    }, {
+      "name" : " -- @1.6 设备心跳的用例",
+      "uid" : "9f4077db5a2e8f92",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053762,
+        "stop" : 1642990053778,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "设备心跳006", "门禁盒子(未注册)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"FE990A8F\"}" ]
+    }, {
+      "name" : " -- @1.7 设备心跳的用例",
+      "uid" : "2e21e88fba540137",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053778,
+        "stop" : 1642990053794,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "设备心跳007", "一体机(同空间异api账号)上报心跳", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"deviceId\": \"0120100016c0aa02a00\"}" ]
+    }, {
+      "name" : " -- @1.8 设备心跳的用例",
+      "uid" : "b419f96d24ae281d",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053794,
+        "stop" : 1642990053809,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"98h35f4e50xoe6m4\", \"api_secret\": \"k30oyz58fb7j0sfx4iaqa8n0s3vmiivj\"}", "设备心跳008", "门禁盒子(同空间异api账号)上报心跳", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"deviceId\": \"FE990A0F\"}" ]
+    }, {
+      "name" : " -- @1.9 设备心跳的用例",
+      "uid" : "3294cc274d0cec18",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053809,
+        "stop" : 1642990053833,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "设备心跳009", "一体机(同租户异空间api账号)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02a00\"}" ]
+    }, {
+      "name" : " -- @1.10 设备心跳的用例",
+      "uid" : "ba8a5306d979eb53",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053834,
+        "stop" : 1642990053848,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"150qw761lcolwssc\", \"api_secret\": \"b9vrjzvg1dorejp1d4rw1ad7rr3mknx8\"}", "设备心跳010", "门禁盒子(同租户异空间api账号)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"FE990A0F\"}" ]
+    }, {
+      "name" : " -- @1.11 设备心跳的用例",
+      "uid" : "2c18d807b8707c9",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053849,
+        "stop" : 1642990053863,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "设备心跳011", "一体机(异租户api账号)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02a00\"}" ]
+    }, {
+      "name" : " -- @1.12 设备心跳的用例",
+      "uid" : "c7336e6c42213426",
+      "parentUid" : "8ac95414c485210d792542eb9f78e24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053864,
+        "stop" : 1642990053872,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"api_key\": \"uafpktjevv9pebcl\", \"api_secret\": \"nvs1gb3lct3fxy4ji4xzarxs7zt3nwxc\"}", "设备心跳012", "门禁盒子(异租户api账号)上报心跳", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"FE990A0F\"}" ]
+    } ],
+    "uid" : "8ac95414c485210d792542eb9f78e24d"
+  }, {
+    "name" : "设备上报运行日志",
+    "children" : [ {
+      "name" : " -- @1.1 用例",
+      "uid" : "a5404c31ff81b181",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053872,
+        "stop" : 1642990053904,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志001", "一体机上报日志", "{\"code\": 200, \"msg\": \"设备运行日志上报成功\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}" ]
+    }, {
+      "name" : " -- @1.2 用例",
+      "uid" : "19feabcb59c4d041",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053904,
+        "stop" : 1642990053919,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志002", "门禁盒子上报日志", "{\"code\": 200, \"msg\": \"设备运行日志上报成功\"}", "{\"deviceId\": \"FE990A0F\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}" ]
+    }, {
+      "name" : " -- @1.3 用例",
+      "uid" : "7dfb93f6fef2fd0c",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053919,
+        "stop" : 1642990053935,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志003", "上报格式错误的日志", "{\"code\": 400, \"msg\": \"日志格式错误\"}", "{\"deviceId\": \"FE990A0F\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"typ\": \"warn\", \"error\": \"fjhkvfjkfjk旧卡不具备jkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j那就看到你\"}}" ]
+    }, {
+      "name" : " -- @1.4 用例",
+      "uid" : "c1d0905b0f151f34",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053935,
+        "stop" : 1642990053951,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志004", "上报空日志", "{\"code\": 400, \"msg\": \"日志对象不能为空\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {}}" ]
+    }, {
+      "name" : " -- @1.5 用例",
+      "uid" : "70f18f257b5dfbb0",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053951,
+        "stop" : 1642990053971,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志005", "未注册设备上报日志", "{\"code\": 400, \"msg\": \"设备ID不存在\"}", "{\"deviceId\": \"0120100016c0aa02f00\", \"time\": \"%Y-%m-%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjjkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j\"}}" ]
+    }, {
+      "name" : " -- @1.6 用例",
+      "uid" : "f85cb07b8bcf39b0",
+      "parentUid" : "f246ea5fe3c37044bd923b3d444a3042",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053972,
+        "stop" : 1642990053988,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "设备日志006", "用错误时间格式上报日志", "{\"code\": 400, \"msg\": \"操作时间格式不正确\"}", "{\"deviceId\": \"0120100016c0aa02f00\", \"time\": \"%Y-%m%d %H:%M:%S\", \"log\": {\"type\": \"warn\", \"error\": \"fjhkvfjkfjjkjhsdhfvkjvfvf fvfen   fjhkfejkhwfbjkkj kvnvs,j\"}}" ]
+    } ],
+    "uid" : "f246ea5fe3c37044bd923b3d444a3042"
+  }, {
+    "name" : "开门记录：上报和查询",
+    "children" : [ {
+      "name" : " -- @1.1 开门记录的用例",
+      "uid" : "1c9ae9b9bd7c1431",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990053995,
+        "stop" : 1642990055137,
+        "duration" : 1142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录001", "开门记录上报查询: 人证对比, 健康核验, 测温, 高风险", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.55\", \"base64Img\": r\"\\documents\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+    }, {
+      "name" : " -- @1.2 开门记录的用例",
+      "uid" : "913cab290e152322",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990055137,
+        "stop" : 1642990056250,
+        "duration" : 1113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录002", "开门记录上报查询: 人证对比, 健康核验, 测温, 中风险", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"36.5\", \"base64Img\": r\"\\documents\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"01\", \"guide\": \"中风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"15\"}" ]
+    }, {
+      "name" : " -- @1.3 开门记录的用例",
+      "uid" : "a96dfef608b20157",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990056251,
+        "stop" : 1642990057338,
+        "duration" : 1087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录003", "开门记录上报查询: 人证对比, 健康核验, 测温, 低风险", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36.5\", \"base64Img\": r\"\\documents\\ttt.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"00\", \"guide\": \"低风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"20\"}" ]
+    }, {
+      "name" : " -- @1.4 开门记录的用例",
+      "uid" : "d31e72ffbe14e3fd",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990057338,
+        "stop" : 1642990058381,
+        "duration" : 1043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录004", "开门记录上报查询: 扫码核验(高风险), 测温", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.00\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"30\"}" ]
+    }, {
+      "name" : " -- @1.5 开门记录的用例",
+      "uid" : "a37323ec590e2bf9",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990058381,
+        "stop" : 1642990059441,
+        "duration" : 1060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录005", "开门记录上报查询: 扫码核验(中风险), 测温", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.00\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"01\", \"guide\": \"中风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"40\"}" ]
+    }, {
+      "name" : " -- @1.6 开门记录的用例",
+      "uid" : "db12f80afa182e3c",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990059441,
+        "stop" : 1642990060504,
+        "duration" : 1063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录006", "开门记录上报查询: 扫码核验(低风险), 测温", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"00\", \"guide\": \"低风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"50\"}" ]
+    }, {
+      "name" : " -- @1.7 开门记录的用例",
+      "uid" : "2aec00fd6676e2cb",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990060504,
+        "stop" : 1642990061543,
+        "duration" : 1039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录007", "开门记录上报查询: 刷卡, 测温(高温)", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"IC_CARD\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EAE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"100\"}" ]
+    }, {
+      "name" : " -- @1.8 开门记录的用例",
+      "uid" : "1cb2541d06c6781e",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990061543,
+        "stop" : 1642990062581,
+        "duration" : 1038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录008", "开门记录上报查询: 刷卡, 测温(常温)", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"IC_CARD\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EBE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+    }, {
+      "name" : " -- @1.9 开门记录的用例",
+      "uid" : "d9989b5b1827a17c",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990062581,
+        "stop" : 1642990063646,
+        "duration" : 1065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录009", "开门记录上报查询: 健康核验(中风险), 黄码通行, 测温(常温)", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"YELLOW_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"36\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"01\", \"guide\": \"黄码, 可以通行\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+    }, {
+      "name" : " -- @1.10 开门记录的用例",
+      "uid" : "e2ca792ed9567aa8",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990063646,
+        "stop" : 1642990064689,
+        "duration" : 1043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录010", "开门记录上报查询: 健康核验(高风险), 黄码通行, 测温(高温)", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"HEALTH_CODE\", \"YELLOW_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"红码,不可通行\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+    }, {
+      "name" : " -- @1.11 开门记录的用例",
+      "uid" : "d0dd57077eb19db7",
+      "parentUid" : "e42b52dd11f7578ad06f59549c91d42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990064689,
+        "stop" : 1642990065743,
+        "duration" : 1054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "开门记录011", "开门记录上报查询: 门禁盒子刷卡开门", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"FE990A0F\", \"ways\": [\"IC_CARD\"], \"time\": None, \"status\": \"success\", \"inout\": \"in\", \"temperature\": \"\", \"format\": \"\", \"personId\": \"\", \"personName\": \"\", \"uid\": \"8776EAE0\", \"riskAssessmentGrade\": \"\", \"guide\": \"\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"FE990A0F\", \"current\": \"1\", \"size\": \"10\"}" ]
+    } ],
+    "uid" : "e42b52dd11f7578ad06f59549c91d42d"
+  }, {
+    "name" : "instruction issuance",
+    "children" : [ {
+      "name" : "all instructions -- @1.1 新用例",
+      "uid" : "bc466eb7c36b12d8",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990065750,
+        "stop" : 1642990065834,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发001", "下发指令: 结果展示时长3秒", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag_结果展示时长\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"结果展示时长\", \"instruction\": \"2002\", \"instruParams\": {\"time\": 3}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.2 新用例",
+      "uid" : "8c9d63d71bd560cc",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990065835,
+        "stop" : 1642990065904,
+        "duration" : 69
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发002", "下发指令: 重启设备", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag重启设备\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"重启设备\", \"instruction\": \"2002\", \"instruParams\": {}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.3 新用例",
+      "uid" : "5bea55e2cf3f4e5a",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990065904,
+        "stop" : 1642990065982,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发003", "下发指令: 固件升级", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag固件升级\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"远程升级\", \"instruction\": \"4001\", \"instruParams\": {\"url\": \"https://www.baidu.com\", \"version\": \"v1.0\"}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.4 新用例",
+      "uid" : "683043a3fd29296c",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990065982,
+        "stop" : 1642990066071,
+        "duration" : 89
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发004", "下发指令: 换服务器", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag换个服务器\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"切换服务器\", \"instruction\": \"4003\", \"instruParams\": {\"server\": \"www.baidu.com:555\", \"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"} , \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.5 新用例",
+      "uid" : "a7195d782e8f9857",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990066071,
+        "stop" : 1642990066262,
+        "duration" : 191
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发005", "下发指令: 下发人员信息", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag下发一个人员信息\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"下发人员信息\", \"instruction\": \"4002\", \"instruParams\": {\"operationType\": \"add\", \"personId\": \"511028199603080010\", \"personName\": \"张正涛\", \"uid\": \"AA3E34F7\", \"cardType\": \"M1\", \"base64Img\": r\"/documents/kkk.jpg\", \"format\": \"png\", \"type\": \"USER\", \"isInBlackList\": True}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.6 新用例",
+      "uid" : "310810e67351254d",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990066262,
+        "stop" : 1642990066441,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发006", "下发指令: 修改人员信息", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag修改一个人员信息\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"下发人员信息\", \"instruction\": \"4002\", \"instruParams\": {\"operationType\": \"update\", \"personId\": \"511028199603080010\", \"personName\": \"张正涛\", \"uid\": \"AA3E34F7\", \"cardType\": \"CPU\", \"base64Img\": r\"/documents/ttt.jpg\", \"format\": \"jpg\", \"type\": \"ADMIN\", \"isInBlackList\": False}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.7 新用例",
+      "uid" : "64a1b3f7c0d97143",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990066443,
+        "stop" : 1642990066505,
+        "duration" : 62
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发007", "下发指令: 删除人员信息", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag删除一个人员信息\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"下发人员信息\", \"instruction\": \"4002\", \"instruParams\": {\"operationType\": \"delete\", \"personId\": \"511028199603080010\", \"personName\": \"张正涛\", \"type\": \"ADMIN\", \"isInBlackList\": False}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.8 新用例",
+      "uid" : "af6302f24e46285a",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990066505,
+        "stop" : 1642990066588,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发008", "下发指令: 查询人员信息", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag查询人员信息\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"下发人员信息\", \"instruction\": \"4002\", \"instruParams\": {\"operationType\": \"select\", \"personId\": \"511028199603080010\", \"personName\": \"张正涛\", \"uid\": \"AA3E34F7\", \"cardType\": \"CPU\", \"type\": \"ADMIN\", \"isInBlackList\": False}, \"sendType\": \"http\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    }, {
+      "name" : "all instructions -- @1.9 新用例",
+      "uid" : "177a1573aaab92f0",
+      "parentUid" : "7212c5ce8ff9991cfd03d44d444b584b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642990066588,
+        "stop" : 1642990066675,
+        "duration" : 87
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{\"接口名\": \"指令下发\", \"请求方法\": \"POST\"}", "{\"接口名\": \"设备心跳\", \"请求方法\": \"POST\"}", "{\"接口名\": \"任务跟踪\", \"请求方法\": \"POST\"}", "{\"接口名\": \"指令查询\", \"请求方法\": \"GET\"}", "指令下发009", "下发指令: 下发权限", "{\"code\": 200, \"msg\": \"指令下发成功\"}", "{\"code\": 200, \"msg\": \"设备心跳上报成功\"}", "{\"code\": 200, \"msg\": \"任务跟踪成功\"}", "{\"code\": 200, \"msg\": \"指令列表查询成功\", \"total\": 1}", "success", "[{\"tag\": \"tag下发权限\", \"deviceId\": \"0120100016c0aa02a00\", \"deviceName\": \"设备002\", \"name\": \"下发人员信息\", \"instruction\": \"4002\", \"instruParams\": {\"operationType\": \"add\", \"personName\": \"张正涛\", \"uid\": \"AA3E34F7\", \"cardType\": \"MAC\", \"isInBlackList\": False}, \"sendType\": \"tcp\", \"retryCount\": 0}]", "{\"deviceId\": \"0120100016c0aa02a00\"}", "{\"status\": \"COMPLETED\", \"current\": 1}" ]
+    } ],
+    "uid" : "7212c5ce8ff9991cfd03d44d444b584b"
+  } ]
+}

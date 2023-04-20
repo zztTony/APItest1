@@ -1,0 +1,104 @@
+{
+  "uid" : "104fae43c9decbca",
+  "name" : " -- @2.4 健康核验异常用例",
+  "fullName" : "健康核验: ",
+  "historyId" : "50db2b4e01c998cf525e976b798a8126",
+  "time" : {
+    "start" : 1642750454797,
+    "stop" : 1642750455029,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号健康核验010，用例描述健康核验异常：未健康申报",
+      "time" : {
+        "start" : 1642750454797,
+        "stop" : 1642750454797,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then api账号{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}, 健康核验请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"452201199604170013\", \"name\": \"邱垚\", \"codeContent\": \"\", \"cardExtension\": \"\"}和预期结果{\"code\": 10004, \"msg\": \"请按要求进行健康申报\"}",
+      "time" : {
+        "start" : 1642750454797,
+        "stop" : 1642750455029,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "健康核验"
+  }, {
+    "name" : "feature",
+    "value" : "健康核验"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "api_kv",
+    "value" : "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}"
+  }, {
+    "name" : "caseID",
+    "value" : "健康核验010"
+  }, {
+    "name" : "description",
+    "value" : "健康核验异常：未健康申报"
+  }, {
+    "name" : "expected",
+    "value" : "{\"code\": 10004, \"msg\": \"请按要求进行健康申报\"}"
+  }, {
+    "name" : "parameter",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"452201199604170013\", \"name\": \"邱垚\", \"codeContent\": \"\", \"cardExtension\": \"\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "健康核验" ]
+  },
+  "source" : "104fae43c9decbca.json",
+  "parameterValues" : [ "{\"api_key\": \"ugp1zdjvhfsht16a\", \"api_secret\": \"0eb9trdq29yj8q7ruc0nrokm4obstd7s\"}", "健康核验010", "健康核验异常：未健康申报", "{\"code\": 10004, \"msg\": \"请按要求进行健康申报\"}", "{\"deviceId\": \"0120100016c0aa02a00\", \"certificateType\": \"10\", \"certificateId\": \"452201199604170013\", \"name\": \"邱垚\", \"codeContent\": \"\", \"cardExtension\": \"\"}" ]
+}

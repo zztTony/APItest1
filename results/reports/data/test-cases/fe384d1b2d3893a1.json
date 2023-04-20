@@ -1,0 +1,122 @@
+{
+  "uid" : "fe384d1b2d3893a1",
+  "name" : " -- @1.1 开门记录的用例",
+  "fullName" : "开门记录：上报和查询: ",
+  "historyId" : "ce102aa0e81c166645ebf8d395924910",
+  "time" : {
+    "start" : 1642750456350,
+    "stop" : 1642750457507,
+    "duration" : 1157
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given 用例编号开门记录001; 用例描述开门记录上报查询: 人证对比, 健康核验, 测温, 高风险",
+      "time" : {
+        "start" : 1642750456350,
+        "stop" : 1642750456350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When 上报开门记录: 请求参数{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.55\", \"base64Img\": r\"\\documents\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录上报成功\"}",
+      "time" : {
+        "start" : 1642750456350,
+        "stop" : 1642750456412,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then 查询开门记录: 请求参数{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}, 预期结果{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}",
+      "time" : {
+        "start" : 1642750456412,
+        "stop" : 1642750457507,
+        "duration" : 1095
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "开门记录"
+  }, {
+    "name" : "feature",
+    "value" : "开门记录：上报和查询"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseID",
+    "value" : "开门记录001"
+  }, {
+    "name" : "description",
+    "value" : "开门记录上报查询: 人证对比, 健康核验, 测温, 高风险"
+  }, {
+    "name" : "expected1",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录上报成功\"}"
+  }, {
+    "name" : "expected2",
+    "value" : "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}"
+  }, {
+    "name" : "parameter1",
+    "value" : "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.55\", \"base64Img\": r\"\\documents\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}"
+  }, {
+    "name" : "parameter2",
+    "value" : "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "开门记录" ]
+  },
+  "source" : "fe384d1b2d3893a1.json",
+  "parameterValues" : [ "开门记录001", "开门记录上报查询: 人证对比, 健康核验, 测温, 高风险", "{\"code\": 200, \"msg\": \"开门记录上报成功\"}", "{\"code\": 200, \"msg\": \"开门记录列表查询成功\", \"totalCount\": 1}", "{\"deviceId\": \"0120100016c0aa02a00\", \"ways\": [\"FACE\", \"ID_NUMBER\", \"HEALTH_CODE\", \"TEMPE\"], \"time\": None, \"status\": \"fail\", \"inout\": \"in\", \"temperature\": \"38.55\", \"base64Img\": r\"\\documents\\kkk.jpg\", \"format\": \"jpg\", \"personId\": \"511028199603088514\", \"personName\": \"张正t\", \"uid\": \"\", \"riskAssessmentGrade\": \"10\", \"guide\": \"高风险\", \"pid\": \"\", \"cardExtension\": \"\"}", "{\"startTime\": None, \"endTime\": None, \"deviceId\": \"0120100016c0aa02a00\", \"current\": \"1\", \"size\": \"10\"}" ]
+}
